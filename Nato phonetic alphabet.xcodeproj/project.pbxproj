@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F9840852B4B23430083698B /* Nato_phonetic_alphabetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9840842B4B23430083698B /* Nato_phonetic_alphabetApp.swift */; };
+		7F9840872B4B23430083698B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9840862B4B23430083698B /* ContentView.swift */; };
+		7F9840892B4B23430083698B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F9840882B4B23430083698B /* Assets.xcassets */; };
+		7F98408D2B4B23430083698B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F98408C2B4B23430083698B /* Preview Assets.xcassets */; };
+		7F9840972B4B23440083698B /* Nato_phonetic_alphabetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9840962B4B23440083698B /* Nato_phonetic_alphabetTests.swift */; };
+		7F9840A12B4B23440083698B /* Nato_phonetic_alphabetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9840A02B4B23440083698B /* Nato_phonetic_alphabetUITests.swift */; };
+		7F9840A32B4B23440083698B /* Nato_phonetic_alphabetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9840A22B4B23440083698B /* Nato_phonetic_alphabetUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F9840932B4B23440083698B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9840792B4B23430083698B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F9840802B4B23430083698B;
+			remoteInfo = "Nato phonetic alphabet";
+		};
+		7F98409D2B4B23440083698B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F9840792B4B23430083698B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F9840802B4B23430083698B;
+			remoteInfo = "Nato phonetic alphabet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F9840812B4B23430083698B /* Nato phonetic alphabet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nato phonetic alphabet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9840842B4B23430083698B /* Nato_phonetic_alphabetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nato_phonetic_alphabetApp.swift; sourceTree = "<group>"; };
+		7F9840862B4B23430083698B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F9840882B4B23430083698B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F98408A2B4B23430083698B /* Nato_phonetic_alphabet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nato_phonetic_alphabet.entitlements; sourceTree = "<group>"; };
+		7F98408C2B4B23430083698B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F9840922B4B23440083698B /* Nato phonetic alphabetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nato phonetic alphabetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9840962B4B23440083698B /* Nato_phonetic_alphabetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nato_phonetic_alphabetTests.swift; sourceTree = "<group>"; };
+		7F98409C2B4B23440083698B /* Nato phonetic alphabetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nato phonetic alphabetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F9840A02B4B23440083698B /* Nato_phonetic_alphabetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nato_phonetic_alphabetUITests.swift; sourceTree = "<group>"; };
+		7F9840A22B4B23440083698B /* Nato_phonetic_alphabetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nato_phonetic_alphabetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F98407E2B4B23430083698B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F98408F2B4B23440083698B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9840992B4B23440083698B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F9840782B4B23430083698B = {
+			isa = PBXGroup;
+			children = (
+				7F9840832B4B23430083698B /* Nato phonetic alphabet */,
+				7F9840952B4B23440083698B /* Nato phonetic alphabetTests */,
+				7F98409F2B4B23440083698B /* Nato phonetic alphabetUITests */,
+				7F9840822B4B23430083698B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F9840822B4B23430083698B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F9840812B4B23430083698B /* Nato phonetic alphabet.app */,
+				7F9840922B4B23440083698B /* Nato phonetic alphabetTests.xctest */,
+				7F98409C2B4B23440083698B /* Nato phonetic alphabetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F9840832B4B23430083698B /* Nato phonetic alphabet */ = {
+			isa = PBXGroup;
+			children = (
+				7F9840842B4B23430083698B /* Nato_phonetic_alphabetApp.swift */,
+				7F9840862B4B23430083698B /* ContentView.swift */,
+				7F9840882B4B23430083698B /* Assets.xcassets */,
+				7F98408A2B4B23430083698B /* Nato_phonetic_alphabet.entitlements */,
+				7F98408B2B4B23430083698B /* Preview Content */,
+			);
+			path = "Nato phonetic alphabet";
+			sourceTree = "<group>";
+		};
+		7F98408B2B4B23430083698B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F98408C2B4B23430083698B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F9840952B4B23440083698B /* Nato phonetic alphabetTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F9840962B4B23440083698B /* Nato_phonetic_alphabetTests.swift */,
+			);
+			path = "Nato phonetic alphabetTests";
+			sourceTree = "<group>";
+		};
+		7F98409F2B4B23440083698B /* Nato phonetic alphabetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F9840A02B4B23440083698B /* Nato_phonetic_alphabetUITests.swift */,
+				7F9840A22B4B23440083698B /* Nato_phonetic_alphabetUITestsLaunchTests.swift */,
+			);
+			path = "Nato phonetic alphabetUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F9840802B4B23430083698B /* Nato phonetic alphabet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9840A62B4B23440083698B /* Build configuration list for PBXNativeTarget "Nato phonetic alphabet" */;
+			buildPhases = (
+				7F98407D2B4B23430083698B /* Sources */,
+				7F98407E2B4B23430083698B /* Frameworks */,
+				7F98407F2B4B23430083698B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nato phonetic alphabet";
+			productName = "Nato phonetic alphabet";
+			productReference = 7F9840812B4B23430083698B /* Nato phonetic alphabet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F9840912B4B23440083698B /* Nato phonetic alphabetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9840A92B4B23440083698B /* Build configuration list for PBXNativeTarget "Nato phonetic alphabetTests" */;
+			buildPhases = (
+				7F98408E2B4B23440083698B /* Sources */,
+				7F98408F2B4B23440083698B /* Frameworks */,
+				7F9840902B4B23440083698B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F9840942B4B23440083698B /* PBXTargetDependency */,
+			);
+			name = "Nato phonetic alphabetTests";
+			productName = "Nato phonetic alphabetTests";
+			productReference = 7F9840922B4B23440083698B /* Nato phonetic alphabetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F98409B2B4B23440083698B /* Nato phonetic alphabetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F9840AC2B4B23440083698B /* Build configuration list for PBXNativeTarget "Nato phonetic alphabetUITests" */;
+			buildPhases = (
+				7F9840982B4B23440083698B /* Sources */,
+				7F9840992B4B23440083698B /* Frameworks */,
+				7F98409A2B4B23440083698B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F98409E2B4B23440083698B /* PBXTargetDependency */,
+			);
+			name = "Nato phonetic alphabetUITests";
+			productName = "Nato phonetic alphabetUITests";
+			productReference = 7F98409C2B4B23440083698B /* Nato phonetic alphabetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F9840792B4B23430083698B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					7F9840802B4B23430083698B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					7F9840912B4B23440083698B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 7F9840802B4B23430083698B;
+					};
+					7F98409B2B4B23440083698B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 7F9840802B4B23430083698B;
+					};
+				};
+			};
+			buildConfigurationList = 7F98407C2B4B23430083698B /* Build configuration list for PBXProject "Nato phonetic alphabet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F9840782B4B23430083698B;
+			productRefGroup = 7F9840822B4B23430083698B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F9840802B4B23430083698B /* Nato phonetic alphabet */,
+				7F9840912B4B23440083698B /* Nato phonetic alphabetTests */,
+				7F98409B2B4B23440083698B /* Nato phonetic alphabetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F98407F2B4B23430083698B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F98408D2B4B23430083698B /* Preview Assets.xcassets in Resources */,
+				7F9840892B4B23430083698B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9840902B4B23440083698B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F98409A2B4B23440083698B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F98407D2B4B23430083698B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9840872B4B23430083698B /* ContentView.swift in Sources */,
+				7F9840852B4B23430083698B /* Nato_phonetic_alphabetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F98408E2B4B23440083698B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9840972B4B23440083698B /* Nato_phonetic_alphabetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9840982B4B23440083698B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9840A12B4B23440083698B /* Nato_phonetic_alphabetUITests.swift in Sources */,
+				7F9840A32B4B23440083698B /* Nato_phonetic_alphabetUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F9840942B4B23440083698B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F9840802B4B23430083698B /* Nato phonetic alphabet */;
+			targetProxy = 7F9840932B4B23440083698B /* PBXContainerItemProxy */;
+		};
+		7F98409E2B4B23440083698B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F9840802B4B23430083698B /* Nato phonetic alphabet */;
+			targetProxy = 7F98409D2B4B23440083698B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F9840A42B4B23440083698B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F9840A52B4B23440083698B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		7F9840A72B4B23440083698B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nato phonetic alphabet/Nato_phonetic_alphabet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nato phonetic alphabet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alextranwebsite.Nato-phonetic-alphabet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F9840A82B4B23440083698B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nato phonetic alphabet/Nato_phonetic_alphabet.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nato phonetic alphabet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alextranwebsite.Nato-phonetic-alphabet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F9840AA2B4B23440083698B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alextranwebsite.Nato-phonetic-alphabetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nato phonetic alphabet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nato phonetic alphabet";
+			};
+			name = Debug;
+		};
+		7F9840AB2B4B23440083698B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alextranwebsite.Nato-phonetic-alphabetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nato phonetic alphabet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nato phonetic alphabet";
+			};
+			name = Release;
+		};
+		7F9840AD2B4B23440083698B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alextranwebsite.Nato-phonetic-alphabetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nato phonetic alphabet";
+			};
+			name = Debug;
+		};
+		7F9840AE2B4B23440083698B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alextranwebsite.Nato-phonetic-alphabetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nato phonetic alphabet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F98407C2B4B23430083698B /* Build configuration list for PBXProject "Nato phonetic alphabet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9840A42B4B23440083698B /* Debug */,
+				7F9840A52B4B23440083698B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9840A62B4B23440083698B /* Build configuration list for PBXNativeTarget "Nato phonetic alphabet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9840A72B4B23440083698B /* Debug */,
+				7F9840A82B4B23440083698B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9840A92B4B23440083698B /* Build configuration list for PBXNativeTarget "Nato phonetic alphabetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9840AA2B4B23440083698B /* Debug */,
+				7F9840AB2B4B23440083698B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F9840AC2B4B23440083698B /* Build configuration list for PBXNativeTarget "Nato phonetic alphabetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F9840AD2B4B23440083698B /* Debug */,
+				7F9840AE2B4B23440083698B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F9840792B4B23430083698B /* Project object */;
+}
